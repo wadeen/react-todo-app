@@ -21,3 +21,19 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+# ディレクトリ
+node_modules/
+.vscode/
+dist/
+
+# ファイル
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.map
+.DS_Store
