@@ -5,14 +5,13 @@ export const TodoList = ({ taskList, setTaskList }) => {
   const handleDelete = (id) => {
 
     // タスクを削除する
-
     setTaskList(taskList.filter(task => task.id !== id));
+
   };
 
     const handleCompleted = (id) => {
 
        // 現在のタスクに取り消し線を追加する 
-
       setTaskList(
         taskList.map((task) => {
           if (id === task.id) {
